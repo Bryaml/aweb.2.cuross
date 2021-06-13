@@ -42,6 +42,81 @@
       </nav>
       <br>
       <div class="container">
+        <div class="row">
+          <div class="col-6 offset-3 ">
+           <fieldset>
+             <legend> formulario de registro</legend>
+             
+             <form action="" method="POST">
+               <ul style="list-style: none">
+                 <li>
+                   <label for="nombre">Nombre</label>
+                   <input type="text" name="nombre">
+                 </li>
+                 
+                 <li>
+                  <label for="primerApellido">primer apellido</label>
+                  <input type="text" name="primerApellido">
+                </li>
+                <li>
+                  <label for="segundoPrimer">primer apellido</label>
+                  <input type="text" name="segundoApellido">
+                </li>
+                <li>
+                  <label for="#">Tipo de modalidad</label>
+                  <input type="checkbox" id="presencial" value="presencial">
+                  <label for="presencial">presencial</label>
+
+                  <input type="checkbox" id="remoto" value="remoto">
+                  <label for="remoto">remoto</label>
+
+                  <input type="checkbox" id="mixto" value="mixto">
+                  <label for="mixto">Mixto</label>
+                </li>
+
+                <li>
+                  <input type="radio" name="sexo" id="hombre" value="hombre">
+                  <label for="hombre">Hombre</label>
+
+
+                  <input type="radio" name="sexo" id="mujer" value="mujer">
+                  <label for="mujer">mujer</label> 
+                  
+                  <li>
+                    <label for="curso">curso</label>
+                    <select name="curso" id="curso">
+                      <option value="0">Selecciones...</option>
+                      <option value="1">Creatividad y diseño</option>
+                      <option value="2">Database system</option>
+                      <option value="3">Aplicaciones</option>
+                      <option value="4">Finanzas corporativas</option>
+                     
+                      
+                    </select>
+                  </li>
+
+                  <li>
+                    <label for="observaciones">observaciones</label>
+                     <br>
+                    <textarea style="resize: none" name="observaciones" id="observaciones" cols="60" rows="10">
+                    </textarea>
+                  </li>
+
+                  <li>
+                    <input type="submit" value="Registrarme" name="registrarme">
+                    <input type="reset" value="cancela" name="reset" id="reset">
+                  </li>
+
+
+               </ul>
+
+             
+               
+            
+              </form>
+           </fieldset>
+          </div>
+        </div>
           
       </div>
 
